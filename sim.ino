@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 //Create software serial object to communicate with SIM800L
 SoftwareSerial sim800l(3,2); //SIM800L Tx & Rx is connected to Arduino #3 & #2
-String number = "+918279768820"; // write your phone number here
+String number = "+XXXXXXXXX"; // write your phone number here
 void setup()
 {
   sim800l.begin(9600);   // Setting the baud rate of sim800l GSM Module  
